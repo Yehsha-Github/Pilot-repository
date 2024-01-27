@@ -1,0 +1,48 @@
+body {
+  background: rgb(250, 243, 231);
+  text-align: center;
+  margin: 0;
+}
+
+.weathersearch {
+  background-color: rgb(250, 225, 186);
+  margin-block-start: 50px;
+  margin-block-end: 50px;
+  padding-top: 15px;
+  border-color: gray;
+  font-family: Georgia;
+  font-weight: 600;
+  color: grey;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 1.75em;
+  margin-block-start: 30px;
+  font-weight: 500;
+  color: #007cb9;
+  display: inline;
+  padding-inline-start: 10px;
+  padding-inline-end: 35px;
+}
+
+.row {
+  display: inline-flex;
+  font-size: 1.5em;
+  color: #1a64d6;
+  list-style: none;
+  text-align: center;
+}
+
+.col {
+  padding: 30px;
+}
+
+.col:hover {
+  background-color: rgb(250, 225, 186);
+  transition: all 200ms ease-in;
+  border-radius: 40px;
+  padding: 30px;
+  margin: 40px;
+}

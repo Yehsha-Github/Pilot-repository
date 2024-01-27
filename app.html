@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="weathersearch">
+            <form class="search-form" id="search-form">
+                <div class="row">
+                    <div class="col-9">
+                        <input type="search" placeholder="Enter city" autocomplete="off" autofocus="on" id="input-city"
+                            class="form-control shadow-sm" />
+                    </div>
+                    <div class="col-3">
+                        <button class="heading">
+                            SEARCH
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <h1 id="city">Sydney</h1>
+    <h2>Tuesday</h2>
+    <h3>16:00</h3>
+    <br />
+    <div class="row">
+        <div class="col">
+            <strong> Yesterday </strong> <br />
+            🌞 14°C/ <strong> 19°C </strong>
+        </div>
+        <div class="col">
+            <strong> Today </strong> <br />
+            🌞<span class="temperature" id="temperature"> 8 </span> <span class="units"> <a href="# " id="celsius"> °C
+                </a> / <a href="# " id="farenheit"> ℉ </a> </span>
+        </div>
+        <div class="col">
+            <strong> Tomorrow </strong> <br />
+            🌥️ 11°C/ <strong> 22°C </strong>
+        </div>
+        <div class="col">
+            → <br />
+            More</div>
+    </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
