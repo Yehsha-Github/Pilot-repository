@@ -9,10 +9,12 @@ body {
   margin-block-start: 50px;
   margin-block-end: 50px;
   padding-top: 15px;
+}
+
+.heading {
   border-color: gray;
   font-family: Georgia;
-  font-weight: 600;
-  color: grey;
+  font-weight: 500;
 }
 
 h1,

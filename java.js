@@ -63,7 +63,7 @@ function convertToFarenheit(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
   let temperature = temperatureElement.innerHTML;
-  temperatureElement.innerHTML = Math.round((temperature * 9) / 5 + 32);
+  temperatureElement.innerHTML = Math.round(temperature * 1.8 + 32);
 }
 
 let farenheit = document.querySelector("#farenheit");
@@ -73,7 +73,7 @@ function convertToCelsius() {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
   let temperature = temperatureElement.innerHTML;
-  temperatureElement.innerHTML = "";
+  temperatureElement.innerHTML = Math.round((temperature - 32) / 1.8);
 }
 
 let celsius = document.querySelector("#celsius");
