@@ -6,15 +6,35 @@ body {
 
 .weathersearch {
   background-color: rgb(250, 225, 186);
+  width: 90%;
+  max-width: 470px;
+  margin: 100px auto 0;
   margin-block-start: 50px;
   margin-block-end: 50px;
   padding-top: 15px;
+  border-radius: 40px;
 }
 
-.heading {
+.search-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  border: 0;
+  outline: 0;
+  background: rgb(250, 225, 186);
+  padding: 10px 25px;
+  border-radius: 40px;
+  height: fit-content;
+}
+
+.search-button {
   border-color: gray;
   font-family: Georgia;
   font-weight: 500;
+  margin-inline-start: 200%;
 }
 
 h1,
