@@ -4,6 +4,15 @@ body {
   margin: 0;
 }
 
+.containerBox {
+  background: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
 .weathersearch {
   background-color: rgb(250, 225, 186);
   width: 90%;
