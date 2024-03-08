@@ -31,16 +31,24 @@
         <h1 id="city">Sydney</h1>
         <br />
         <h2>Tuesday</h2>
-        <h3>16:00</h3>
+        <h3 id="time">16:00</h3>
+        <h4>
+            <span id="description">Clear sky</span> <br />
+        </h4>
+        <h5>
+            Humidity: <strong><span id="humidity">61%</span></strong>,
+            Wind: <strong><span id="wind">4.63km/h</span></strong>
+        </h5>
         <br />
         <div class="row">
             <div class="col">
                 <strong> Yesterday </strong> <br />
-                🌞 14°C
+                🌥️ 11°C
             </div>
             <div class="col">
                 <strong> Today </strong> <br />
-                🌞<span class="temperature" id="temperature"> 8 </span> <span class="units"> <a href="# " id="celsius">
+                <span class="current-temperature-icon" id="icon">☀️</span>
+                <span class="temperature" id="temperature"> 29 </span> <span class="units"> <a href="# " id="celsius">
                         °C
                     </a> / <a href="# " id="farenheit"> ℉ </a> </span>
             </div>
@@ -48,9 +56,6 @@
                 <strong> Tomorrow </strong> <br />
                 🌥️ 11°C
             </div>
-            <div class="col">
-                → <br />
-                More</div>
         </div>
         <footer>
             <p>
