@@ -6,7 +6,7 @@ body {
 .containerBox {
   background: white;
   max-width: 600px;
-  margin: 50px auto;
+  margin: 40px auto;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -65,10 +65,6 @@ h5 {
   line-height: 24px;
 }
 
-.current-details strong {
-  color: #007cb9;
-}
-
 .row {
   display: inline-flex;
   font-size: 1.5em;
@@ -89,17 +85,21 @@ h5 {
   margin: 40px;
 }
 
-img {
+.weather-icon {
   display: block;
   position: relative;
   width: 80px;
   height: 80px;
 }
 
+.tomorrow-temp-min {
+  color: #4baddb;
+  font-size: 0.9em;
+}
+
 footer {
   border-top: 1px solid #f9f7fe;
   text-align: center;
   padding-top: 15px;
-
   color: rgba(39, 33, 66, 0.4);
 }
